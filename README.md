@@ -4,7 +4,7 @@
 
 ### Notes de l'auteur
 
-Ce repo contient le code source LaTeX d'un document support pour un exposé que j'ai donné à mes camarades, lors de ma deuxième année de classe préparatoire (en filière MPI). L'exposé s'est déroulé sur deux séances de deux heures -- je n'ai pas eu le temps de tout aborder.
+Ce repo contient le code source LaTeX d'un document support pour un exposé que j'ai donné à mes camarades, lors de ma deuxième année de classe préparatoire (en filière MPI). L'exposé s'est déroulé sur deux séances de deux heures—je n'ai pas eu le temps de tout aborder.
 
 Il avait pour but de donner une introduction « brève » au lambda-calcul, quelques applications (la représentation des booléens et entiers de Church, les tuples, les listes, la récursivité, etc...). Dans une deuxième partie l'exposé étend le lambda-calcul au lambda-calcul simplement typé $\left(\lambda_\rightarrow\right)$, et présente quelques preuves sur l'exécutions de programmes bien typés. Enfin une dernière partie (qui n'a pas été abordée) présente un algorithme bien connu de Hindley-Milner pour l'inférence de type dans le contexte du langage OCaml. Le choix de ce langage s'inscrit (bien entendu) dans le cadre du programme de MP2I/MPI (à ce jour en 2025).
 
