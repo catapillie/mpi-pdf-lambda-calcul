@@ -15,3 +15,8 @@ Une dernière partie est laissée non-rédigée par manque de temps de et motiva
 Il y a sûrement pleins de fautes dans le document, qui a été rédigé très très vite (étant donné que j'avais cours pendant la même période). Des corrections sont les bienvenues, que ce soit directement dans le [fichier .tex source](./source/exposé.tex), ou en me contactant directement, sur Discord par exemple: `@catapillie`.
 
 Bonne lecture !
+
+### Liste des corrections
+* [__3 mai 2025__](https://github.com/catapillie/mpi-pdf-lambda-calcul/commit/b58e2c10ac81600553c891af498abc8fd0c9a0dd)
+  * typo "appellé" -> "appelé".
+  * erreur dans la condition d'application de la substitution "`FV(a_1)`" plutôt que "`FV(b)`".
