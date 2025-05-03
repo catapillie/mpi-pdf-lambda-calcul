@@ -20,3 +20,5 @@ Bonne lecture !
 * [__3 mai 2025__](https://github.com/catapillie/mpi-pdf-lambda-calcul/commit/b58e2c10ac81600553c891af498abc8fd0c9a0dd)
   * typo "appellé" -> "appelé".
   * erreur dans la condition d'application de la substitution "`FV(a_1)`" plutôt que "`FV(b)`".
+* [__3 mai 2025__]()
+  * typo "ou nous" -> "ou non".
