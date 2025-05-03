@@ -355,7 +355,7 @@ donc en prenant une limite $l=0$  (et une suite qui converge bien vers $0$) :
 
 $$\forall\epsilon>0, \exists n_0\in\mathbb{N}~\mid~\forall n\ge n_0, \left|a_n-0\right|<\epsilon$$
 
-On peut dire qu'on a réécrit la formule avec la substitution $\left[l\leftarrow0\right]$. Par contre, il faut faire attention : si j'avais appellé ma limite $n_0$, j'aurais obtenu une formule qui n'a plus de sens, car $n_0$ \underline{est lié dans la formule}.
+On peut dire qu'on a réécrit la formule avec la substitution $\left[l\leftarrow0\right]$. Par contre, il faut faire attention : si j'avais appelé ma limite $n_0$, j'aurais obtenu une formule qui n'a plus de sens, car $n_0$ \underline{est lié dans la formule}.
 
 Le principe est le même avec les $\lambda$-termes : on va remplacer des variables avec de nouveaux termes, à condition de ne pas transformer des variables liés en variables libres, ou vice-versa.
 
@@ -369,7 +369,7 @@ Le principe est le même avec les $\lambda$-termes : on va remplacer des variabl
         y[x \leftarrow b] = y &\hspace{1cm}\text{\underline{si $x\ne y$}, pour ne pas remplacer la mauvaise variable}\\
         \left(a_1~a_2\right)[x \leftarrow b] = a_1[x \leftarrow b]~a_2[x \leftarrow b]&\hspace{1cm}\text{on remplace dans les deux termes de l'application}\\
         \left(\lambda x.~a_1\right)[x \leftarrow b] = \lambda x.~a_1&\hspace{1cm}\text{on ne peut pas substituer une variable déjà liée}\\
-        \left(\lambda y.~a_1\right)[x \leftarrow b] = \lambda y.~\left(a_1[x \leftarrow b]\right)&\hspace{1cm}\text{\underline{si $y=x$ et $y\notin \operatorname*{FV}(a_1)$}, pour ne pas lier des $y$ venant de $b$}\\
+        \left(\lambda y.~a_1\right)[x \leftarrow b] = \lambda y.~\left(a_1[x \leftarrow b]\right)&\hspace{1cm}\text{\underline{si $y=x$ et $y\notin \operatorname*{FV}(b)$}, pour ne pas lier des $y$ venant de $b$}\\
     \end{aligned}
     \end{equation*}
 
