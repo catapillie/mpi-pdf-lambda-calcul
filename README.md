@@ -1,5 +1,6 @@
 ## Lambda-calcul, typage et inférence : pour un MPI
 
+> [!NOTE]
 > I've considered translating the document to English, but right now I'm not 100% certain I'll actually do it. It's a lot of work. Nonetheless, contributions are welcome, and would be greatly appreciated!
 
 *[Accès au fichier PDF](./source/exposé.pdf).*
